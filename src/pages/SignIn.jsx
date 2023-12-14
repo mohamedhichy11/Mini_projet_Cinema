@@ -47,7 +47,7 @@ function SignIn({scroll}) {
    
    <>
     <header className="myheader">
-      <Link  to="/" className='logo1'> 
+      <Link  to="/Mini_projet_Cinema" className='logo1'> 
       <ion-icon name="film-outline"></ion-icon> hichy
     </Link>
       
