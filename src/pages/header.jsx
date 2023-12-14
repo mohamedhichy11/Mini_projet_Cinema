@@ -26,9 +26,9 @@ export default function Header({ scroll }) {
 
   return (
     <header className={`${scroll > 100 ? "scrolled" : undefined} ${menuOpen ? "menu-open" : ""}`}>
-      <a href="/" className='logo'>
-        <ion-icon name="film-outline"></ion-icon> hichy
-      </a>
+      <Link  to="/Mini_projet_Cinema" className='logo'> 
+      <ion-icon name="film-outline"></ion-icon> hichy
+    </Link>
       <ul className={`nav ${menuOpen ? "menu-open" : ""}`}>
         {navList.map((nav) => (
           <NavListItem key={nav._id} nav={nav} navOnclick={handleNavOnclick} />
