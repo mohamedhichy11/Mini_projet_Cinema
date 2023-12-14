@@ -2,14 +2,12 @@ import React from 'react'
 import "./blog.css"
 import { useState , useEffect } from 'react'
 import BLogCard from './BLogCard';
+import datablog from '../data/blogData';
 function Blog() {
     const [blogs,setBlogs]=useState([])
 
     const fetchData=()=>{
-        fetch("http://localhost:3000/data/blogData.json")
-        .then(res=>res.json())
-        .then(data=>setBlogs(data))
-        .catch(e=>console.log(e.message));
+        setBlogs(datablog)
     };
 
     useEffect(()=>{

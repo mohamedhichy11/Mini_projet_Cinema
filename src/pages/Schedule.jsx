@@ -1,6 +1,7 @@
 import React, { useState , useEffect } from 'react'
 import "./schedule.css"
 import Card from '../components/Card';
+import datamovie from '../data/datamovie';
 function Schedule() {
   const filterList=[
     {
@@ -41,10 +42,7 @@ function Schedule() {
   const [filters,setFilters]=useState(filterList)
 
   const fetchData=()=>{
-    fetch("http://localhost:3000/data/movieData.json")
-    .then(res=>res.json())
-    .then(data=>setData(data))
-    .catch(e=>console.log(e.message));
+   setData(datamovie)
 };
 
 useEffect(()=>{
