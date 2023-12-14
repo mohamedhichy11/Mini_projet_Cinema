@@ -50,6 +50,8 @@ function SignIn({scroll}) {
         <Link to="/Mini_projet_Cinema" className='logo1'>
           <ion-icon name="film-outline"></ion-icon> hichy
         </Link>
+
+      
       </header>
     <video autoPlay muted loop playsInline className="backVideo">
       <source src={videoCinema} type="video/mp4" />
