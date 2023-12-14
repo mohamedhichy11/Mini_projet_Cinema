@@ -1,0 +1,211 @@
+.form {
+    position: relative;
+    top: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: transparent;
+    backdrop-filter:blur(7px) ;
+    box-shadow: 0 0 10px 0px #fff;
+    border: 1px solid #fff;
+    padding: 30px;
+    width: 450px;
+    border-radius: 20px;
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 200px;
+  }
+  
+  ::placeholder {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+  }
+  .form button {
+    align-self: flex-end;
+  }
+  
+  .flex-column > label {
+    color: #FFF;
+    font-weight: 600;
+  }
+  
+  .inputForm {
+    border: 1.5px solid #ecedec;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    transition: 0.2s ease-in-out;
+   
+  }
+  
+  .input {
+    color: #fff;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+  }
+  
+  .input:focus {
+    outline: none;
+  }
+  
+  .inputForm:focus-within {
+    border: 1.5px solid var(--primary);
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+  .flex-row > div > label {
+    margin-left:10px ;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+  }
+  
+  .span {
+    font-size: 14px;
+    margin-left: 5px;
+    color: var(--primary);
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .span1{
+    font-size: 14px;
+    margin-left: 5px;
+    color: var(--primary);
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .span:hover{
+    text-decoration: underline;
+  }
+  
+  .button-submit {
+    margin: 20px 0 10px 0;
+    background-color: var(--primary);
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .p {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .btn {
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    gap: 10px;
+    border: 1px solid #ededef;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    border: 1px solid var(--primary);
+    color: #fff;
+    
+  }
+  
+.myheader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+  z-index: 10000;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-bottom: 2px solid var(--primary) ;
+  border-image: linear-gradient(90deg,transparent,var(--primary),transparent)
+  30;
+  backdrop-filter: blur(20px);
+  padding: 10px 100px;
+}
+.logo1{
+  font-family: 'Racing Sans One', sans-serif,cursive;
+  font-size: 35px;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 800;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex ;
+  align-items: center;
+}
+.logo1 ion-icon{
+  margin-right: 10px;
+  color: var(--primary);
+}
+.backVideo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+@media(min-aspect-ratio:16/9){
+    .backVideo{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-aspect-ratio:16/9){
+    .backVideo{
+        width: auto;
+        height: 100%;
+    }
+}
+@media (max-width: 768px) {
+  .form {
+    width: 90%;
+  }
+  .remm{
+    display: flex;
+  }
+ 
+  .span1{
+    margin-left: 7px;
+  }
+  .label1{
+    width:100px;
+  }
+  .myheader{
+    padding: 20px 100px;
+  }
+  .logo1{
+    margin-left: -21px;
+  }
+
+}

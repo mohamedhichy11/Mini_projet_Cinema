@@ -1,0 +1,132 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  padding: 30px 100px;
+    transition: 0.5s;
+    z-index: 10000;
+}
+header.scrolled{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom: 2px solid var(--primary) ;
+    border-image: linear-gradient(90deg,transparent,var(--primary),transparent)
+    30;
+    backdrop-filter: blur(20px);
+    padding: 10px 100px;
+}
+.logo{
+    font-family: 'Racing Sans One', sans-serif,cursive;
+    font-size: 35px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex ;
+    align-items: center;
+}
+.logo ion-icon{
+    margin-right: 10px;
+    color: var(--primary);
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 40px;
+ position: relative;
+ top: 5px;
+  }
+  
+
+.btnsign {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background:  var(--primary);
+    color: #fff;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    cursor: pointer !important;
+    border: none;
+    left: 50px;
+}
+.btnsign:hover{
+    color: var(--primary) !important;
+    background: #fff !important;
+    cursor: pointer !important;
+}
+
+  @media only screen and (max-width: 768px) {
+    .btnsign{
+        left: 0;
+    }
+    header {
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-bottom: 2px solid var(--primary) ;
+      border-image: linear-gradient(90deg,transparent,var(--primary),transparent)
+      30;
+      backdrop-filter: blur(20px);
+    
+    }
+    .logo{
+        font-size: 24px;
+        margin-right: 7px;
+    }
+  
+    .menu-icon {
+      display: block; 
+      margin-right: 10px;
+     
+    }
+  
+    .nav { 
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 80px; 
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-bottom: 2px solid var(--primary);
+      border-image: linear-gradient(90deg, transparent, var(--primary), transparent) 30;
+      padding: 10px;
+      backdrop-filter: blur(20px);
+      z-index: 9999;
+    }
+  
+    .nav.menu-open {
+      display: flex; 
+    }
+  
+    .nav li {
+      margin-bottom: 10px;
+    }
+  
+    header.scrolled {
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-bottom: 2px solid var(--primary);
+    border-image: linear-gradient(90deg,transparent,var(--primary),transparent)
+    30;
+    }
+  }
+
+  

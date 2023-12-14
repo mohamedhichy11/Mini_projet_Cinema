@@ -1,0 +1,116 @@
+.footer{
+    background: transparent;
+    padding: 0 0 30px 0;
+    font-size: 14px;
+}
+.footer .footer-top{
+    background: rgb(255,55,0);
+    background: linear-gradient(262deg, rgba(0, 0, 0, 0.802) 30%, rgba(0,0,0,1) 82%);
+    border-top: 1px solid var(--primary);
+    border-bottom: 1px solid var(--primary);
+    padding: 60px 0 30px 0;
+
+}
+
+.footer .footer-top .footer-info{
+    margin-bottom: 30px;
+}
+
+.footer .footer-top .footer-info .logo span{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer .footer-top .footer-info p{
+    color: #fff;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.footer .footer-top .social-links a{
+    font-size: 1.5rem;
+    display: inline-block;
+    color: #fff;
+    line-height: 0;
+    margin-right: 15px;
+    transition: 0.3;
+    text-decoration: none;
+}
+.footer .footer-top .social-links a:hover{
+    color: var(--primary);
+}
+
+.footer .footer-top .footer-links{
+    color: #fff;
+}
+.footer .footer-top .footer-links li{
+   list-style: none;
+
+}
+.footer .footer-top .footer-links li a{
+    line-height: 26px;
+    color: #fff;
+    text-decoration: none;
+ 
+ }
+
+
+.footer .footer-top h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 12px;
+}
+.footer .footer-top .footer-contact p{
+    line-height: 26px;
+    color: #fff;
+}
+.footer .copyright{
+    text-align: center;
+    padding-top: 30px;
+    color: #fff;
+}
+.footer .credits{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+}
+.footer .credits a{
+    text-decoration: none;
+    color: var(--primary);
+}
+@keyframes dynamicBackground {
+    0% {
+      background-color: rgba(255, 55, 0);
+    }
+    50% {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    100% {
+      background-color: rgba(255, 55, 0);
+    }
+  }
+  
+  .footer .footer-top {
+    animation: dynamicBackground 4s infinite;
+  }
+  
+
+  @media (max-width: 768px) {
+   
+    .footer .footer-top .footer-links li{
+       margin-left: -20px;
+    }
+
+    .footer .footer-top .social-links a{
+        margin-right: 15px;
+    }
+}

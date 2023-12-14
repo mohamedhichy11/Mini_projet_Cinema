@@ -1,0 +1,30 @@
+.trend-card{
+    position: relative;
+}
+.trend-card a{
+    position: relative;
+    text-decoration: none;
+    background: var(--primary);
+    font-size: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    transition: 0.3s;
+}
+.trend-card a:hover{
+    background: #191919;
+}
+
+@media (max-width: 768px) {
+   .trend-card{
+    width: 200px;
+    margin-right: 50px;
+   }
+
+}
