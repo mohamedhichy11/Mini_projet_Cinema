@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Mini_projet_Cinema/static/css/main.d0b81f7d.css",
+    "main.js": "/Mini_projet_Cinema/static/js/main.1a80f4f8.js",
+    "static/js/787.501ac5d4.chunk.js": "/Mini_projet_Cinema/static/js/787.501ac5d4.chunk.js",
+    "static/media/hello.mp4": "/Mini_projet_Cinema/static/media/hello.663d9231300189bffed0.mp4",
+    "static/media/transformer-title.png": "/Mini_projet_Cinema/static/media/transformer-title.2b57f24711bb5520a351.png",
+    "index.html": "/Mini_projet_Cinema/index.html",
+    "main.d0b81f7d.css.map": "/Mini_projet_Cinema/static/css/main.d0b81f7d.css.map",
+    "main.1a80f4f8.js.map": "/Mini_projet_Cinema/static/js/main.1a80f4f8.js.map",
+    "787.501ac5d4.chunk.js.map": "/Mini_projet_Cinema/static/js/787.501ac5d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0b81f7d.css",
+    "static/js/main.1a80f4f8.js"
+  ]
+}
