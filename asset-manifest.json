@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mini_projet_Cinema/static/css/main.d0b81f7d.css",
-    "main.js": "/Mini_projet_Cinema/static/js/main.9bb91506.js",
+    "main.js": "/Mini_projet_Cinema/static/js/main.4175fdf9.js",
     "static/js/787.501ac5d4.chunk.js": "/Mini_projet_Cinema/static/js/787.501ac5d4.chunk.js",
     "static/media/bg-fast-x.jpeg": "/Mini_projet_Cinema/static/media/bg-fast-x.7a45b5c4bce2823922ef.jpeg",
     "static/media/hello.mp4": "/Mini_projet_Cinema/static/media/hello.663d9231300189bffed0.mp4",
@@ -58,11 +58,11 @@
     "static/media/bg-peter-pan-and-wendy.jpeg": "/Mini_projet_Cinema/static/media/bg-peter-pan-and-wendy.e8cd8a77cfa0f5f807d3.jpeg",
     "index.html": "/Mini_projet_Cinema/index.html",
     "main.d0b81f7d.css.map": "/Mini_projet_Cinema/static/css/main.d0b81f7d.css.map",
-    "main.9bb91506.js.map": "/Mini_projet_Cinema/static/js/main.9bb91506.js.map",
+    "main.4175fdf9.js.map": "/Mini_projet_Cinema/static/js/main.4175fdf9.js.map",
     "787.501ac5d4.chunk.js.map": "/Mini_projet_Cinema/static/js/787.501ac5d4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0b81f7d.css",
-    "static/js/main.9bb91506.js"
+    "static/js/main.4175fdf9.js"
   ]
 }
