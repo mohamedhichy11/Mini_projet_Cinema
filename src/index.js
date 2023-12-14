@@ -8,12 +8,13 @@ import { createBrowserRouter,
 RouterProvider,
 Route } from 'react-router-dom';
 const router=createBrowserRouter([
-  {path:"/Mini_projet_Cinema",
+  {path:"Mini_projet_Cinema",
   element:<App/>
 },
 {path:"signin",
 element:<SignIn/>
-}
+},
+basename
 
 ])
 const root = ReactDOM.createRoot(document.getElementById('root'));
