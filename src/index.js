@@ -13,8 +13,7 @@ const router=createBrowserRouter([
 },
 {path:"signin",
 element:<SignIn/>
-},
-basename
+}
 
 ])
 const root = ReactDOM.createRoot(document.getElementById('root'));
